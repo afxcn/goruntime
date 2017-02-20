@@ -1,6 +1,6 @@
 FROM scratch
 MAINTAINER https://github.com/afxcn/goruntime
-COPY . /
+COPY src/* /
 
 LABEL name="GO Runtime" \
     vendor="GZItech.com" \
